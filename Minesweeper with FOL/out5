@@ -1,0 +1,10 @@
+y\x  0  1  2  3  4
+  +---------------+
+ 0|  1  m  2  m  1|
+ 1|  2  2  4  2  2|
+ 2|  1  m  2  m  1|
+  +---------------+
+Unknown locations 0 unknown mines 0
+
+GetBustCounter() = 0
+Solved OK
