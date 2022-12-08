@@ -192,12 +192,6 @@ bool KnowledgeBase::ProveByRefutation( CNF const& alpha ) const
     current += negated;
     KnowledgeBase result;
     bool res = Resolve(result, current);
-
-    if(result.size() == 0)
-    {
-        return false;
-    }
-
     return res;
 }
 
